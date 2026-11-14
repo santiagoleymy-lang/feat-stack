@@ -1,0 +1,14 @@
+### Agregar elementos
+POST http://localhost:8080/pila?valor=uno
+
+### Agregar otro elemento
+POST http://localhost:8080/pila?valor=dos
+
+### Ver la pila
+GET http://localhost:8080/pila
+
+### Ver el tope
+GET http://localhost:8080/pila/peek
+
+### Sacar el tope
+GET http://localhost:8080/pila/pop
